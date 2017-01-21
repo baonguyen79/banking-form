@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
         <meta type="author" content="Bao Nguyen">
 		<title>Bank Application</title>
-		<link rel="stylesheet" href="validation.css">
+		<link rel="stylesheet" type="text/css" href="validation.css">
 	</head>
 
 	<body>
@@ -44,12 +44,13 @@
 				  <input type="checkbox" name="CoSigned"> Loan will be co-signed <p></p>	
 
 		<label></label><textarea rows="5" cols="50" name="comment">Additional comment </textarea>	<p></p>	
-
-		<label>E-mail:</label> <input type="email" name="email"> <p></p>
+		
+		<label>E-mail:</label> <input type="email" name="email" required> <p></p>
+		
 
 		<label>Telephone:</label> <input type="text" name="Telephone"> <p></p>
 
-		<label>LinkedIn URL:</label> <input type="url" name="LinkedInUrl"> 
+		<label>LinkedIn URL:</label> <input type="url" name="LinkedInUrl" required> 
 
 	 
 	</form>
